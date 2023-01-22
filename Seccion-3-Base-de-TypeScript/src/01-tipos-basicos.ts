@@ -14,8 +14,8 @@ let claveGmail: string | number | boolean = 123;
 let res: unknown = ['Alexis', 'Mena'];
 Array.isArray(res) && res.sort();
 
-// any permite acceder a propiedades arbitrarias, incluso no inexistentes.
+// any permite acceder a propiedades arbitrarias, incluso inexistentes.
 let claveFacebook: any = 123;
-claveFacebook.toUpperCase();
+// claveFacebook.toUpperCase(); //Rompe
 
 
